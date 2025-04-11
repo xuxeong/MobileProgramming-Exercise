@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff0033cc"
+    android:orientation="vertical"
+    android:padding="6dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <TextView
+        android:id="@+id/labelUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User Name"
+        android:textColor="#ff000000"
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:id="@+id/ediName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/btnGo"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:text="Go"
+        android:textStyle="bold"/>
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="6dp"
+    android:orientation="vertical" >
+
+    <TableRow>
+        <TextView android:text="ISBN:" />
+        <EditText
+            android:id="@+id/ediISBN"
+            android:layout_span="3" />
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:id="@+id/cancel"
+            android:layout_column="2"
+            android:text="Cancel" />
+        <Button
+            android:id="@+id/ok"
+            android:text="OK" />
+    </TableRow>
+
+
+</TableLayout>
