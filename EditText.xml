@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:background="#ffffff00"
+        android:text = "@string/ACME_Corp_Caption"/>
+
+    <EditText
+        android:id="@+id/txtUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:hint="@string/Enter_your_first_and_last_name"
+        android:textSize="18sp">
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "202334345 최수정"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="82dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:text="@string/login"/>
+
+</LinearLayout>
