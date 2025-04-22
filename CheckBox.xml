@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/labelCoffee"
+        android:background="#ff993300"
+        android:text="@string/coffee_addons"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chkCream"
+        android:text="@string/cream"
+        android:textStyle="bold"/>
+    <CheckBox
+        android:id="@+id/chkSugar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sugar"
+        android:textStyle="bold"/>
+    <Button android:id="@+id/btnPay"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:text="@string/pay"
+        android:textStyle="bold"/>
+</LinearLayout>

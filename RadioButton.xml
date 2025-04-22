@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/labelCoffee"
+        android:background="#ff993300"
+        android:text="@string/coffee_addons"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"/>
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/chkCream"
+        android:text="@string/cream"
+        android:textStyle="bold"/>
+    <CheckBox
+        android:id="@+id/chkSugar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sugar"
+        android:textStyle="bold"/>
+
+    <RadioGroup
+        android:id="@+id/radGroupCoffeType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/labelCoffeeType"
+            android:background="#ff993300"
+            android:text="@string/coffee_addons"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radDecaf"
+            android:text="Decaf"
+            android:textStyle="bold">
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/radExpresso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Expresso"
+            android:textStyle="bold">
+        </RadioButton>
+        <RadioButton android:id="@+id/radColombian"
+            android:layout_width="153dp"
+            android:layout_height="wrap_content"
+            android:text="Colombian"
+            android:textStyle="bold">
+        </RadioButton>
+    </RadioGroup>
+
+    <Button android:id="@+id/btnPay"
+        android:layout_width="153dp"
+        android:layout_height="wrap_content"
+        android:text="@string/pay"
+        android:textStyle="bold"/>
+</LinearLayout>
